@@ -1,0 +1,218 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    font-size: max(80px, 4px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+
+#logohead{
+    width: 60px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+#configsTexts{
+    padding-left: 20px;
+}
+
+#configsTexts3{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#menu-h{
+    background-color: #f9bc0b;  
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    font-weight: bold;
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu-h ul li a:hover {
+    background-color:#141414;
+}
+.sejaBemVindo{
+    background-color:#f9bc0b;
+    height: 420px;
+    margin-bottom: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     
+}
+.fale{
+   
+    padding-bottom: 10px;
+    padding-right: 20px ;
+    padding-left: 20px ;
+    margin-bottom: 100px;
+}
+.banner{
+    background-color: #FFF;
+    height: 700px;
+    
+    padding: 1px;
+    
+}
+
+
+.wave{
+    position: relative;
+    background: linear-gradient(90deg, #ffd250, #fea600) ;
+}
+
+.wave::before{
+    
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background:url(wave2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#botaoparaprototipo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    float: right;
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-right: 16px;
+    padding: 1em 2.5em;
+    font-size: 1em;
+    border-radius: 4em;
+    border: none;
+    background: #171717;
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+}
+
+#botaoparaprototipo:hover{
+    background-color: #ffffff;
+    color: #2f2f2f;
+}
+
+h2{
+    text-align: center;
+    
+    margin-top: 20px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: #FFF;
+}
+
+#h2Alternativo{
+    color: #171717;
+   padding-top: 30px;
+}
+
+#h2Alternativo1{
+    color: #171717;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+#paragrafo01{
+    font-size: 17px;
+    margin: -10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #171717;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#paragrafo02{
+    font-size: 30px;
+    margin: -10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.banner01{
+    margin-top: 0px;
+    background-color: #ffffff;
+    
+    height: 500px;
+}
+
+.avatares{
+    padding:1px;
+    width: 400px;
+    margin-bottom: -150px;
+}
+
+.Avatar{
+    align-content: center;
+    align-tracks: center;
+    margin-left: 170px;
+}
+
+#IconScUpp{
+    width: 50px;
+}
+
+#iconinsta{
+    margin-top: 20px;
+    width: 30px;
+    margin-left: 80px;
+    
+}
+
+a{
+    text-decoration:none; 
+}
+
+.banner02{
+    background-color: #171717;
+    height: 400px;
+    
+    
+    padding: 1px;
+    
+}
+
+#imgmail{
+    margin-top: 20px;
+    width: 30px;
+}

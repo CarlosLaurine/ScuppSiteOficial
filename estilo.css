@@ -1,0 +1,339 @@
+/* ScUpp! */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    font-size: max(60px, 4px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header, section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+section{
+    background-color: #ffae00;
+    margin-bottom: -400px;
+}
+
+header{
+    background-color: #ffda70;
+    position: relative;
+}
+
+/*header h1{
+    border: 5px solid white;
+    padding: 10px 50px;
+    padding-bottom: 20px;
+    margin: 50px;
+}*/
+
+
+
+
+
+
+
+
+
+
+/* Ondas */
+
+.ondas{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.ondas-1{
+    animation: moveWave1 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave1{
+    from {
+        transform: translateX(-2000px);
+      }
+}
+
+.ondas-2{
+    animation: moveWave2 3s 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave2{
+    from {
+        transform: translateX(-1800px);
+      }
+}
+
+.ondas-3{
+    animation: moveWave3 3s 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave3{
+    from {
+        transform: translateX(-1600px);
+      }
+}
+
+
+
+
+
+
+
+
+
+
+/* Logo */
+
+#ajusteLogo{
+    width: 1000px;
+    padding-bottom: 230px;
+}
+
+#ajusteHead{
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+/* Welcome */
+/*
+#ajusteWelcome{
+    margin-top: -500px;
+}
+
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Special Elite", monospace;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+      .typing-animation {
+        animation: blinkCursor 500ms steps(40) infinite normal,
+          typing 4s steps(40) 1s normal both;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 13em;
+        }
+      }
+
+      @keyframes blinkCursor {
+        from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+        }
+        to {
+          border-right-color: transparent;
+        }
+      }
+
+
+
+ /* Menu do topo da page  */
+
+ #logohead{
+    width: 60px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+
+#menu-h{
+    background-color: #ffda70;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    font-weight: bold;
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu-h ul li a:hover {
+    background-color:#2f2f2f;
+}
+
+
+
+/*  ScUpp uma nova maneira de conhecer pessoas */
+
+#ajusteWelcome{
+    margin-top: -400px;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin:auto;
+}
+
+.home{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px 15px;
+    position: relative;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffae00;
+    z-index: 1;
+}
+
+.home .home-text{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home .home-text h1{
+   color:#FFF;
+   font-size: 50px;
+   color:#2f2f2f;
+   line-height: 56px;
+   font-weight: 700;
+   margin:0 0 10px;
+}
+.home .home-text p{
+   margin:0;
+   overflow: hidden;
+}
+.home .home-text p span{ 
+   font-size: 40px;
+   color:#ffffff;
+   font-weight: 700;
+   display: inline-block;
+   line-height: 46px;
+   display: none;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home .home-text p span.text-in{
+   display: block;
+   animation: textIn .5s ease;
+}
+.home .home-text p span.text-out{
+   animation: textOut .5s ease;
+}
+@keyframes textIn{
+   0%{
+       transform: translateY(100%);
+   }
+   100%{
+       transform: translateY(0%);
+   }
+}
+@keyframes textOut{
+   0%{
+       transform: translateY(0%);
+   }
+   100%{
+       transform: translateY(-100%);
+
+   }
+}
+
+
+/* Botao para ir Quem somos  */
+
+.botao{
+    margin-top: 60px;
+    
+}
+
+button{
+    margin-top: 2em;
+    padding: 1em 2.5em;
+    font-size: 1em;
+    border-radius: 4em;
+    border: none;
+    background: #2f2f2f;
+    color: whitesmoke;
+    user-select: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #171717;
+}
+
+
+.correcao{
+    clear: both;
+}
+
+#botaoparaprototipo:hover{
+   
+    background: #fff;
+    color: #171717;
+}
+
+
+#botaoparaprototipo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    float: right;
+    margin-top: 10px;
+    padding: 1em 2.5em;
+    font-size: 1em;
+    margin-right: 16px;
+    border-radius: 4em;
+    border: none;
+    background-color: #ffb400;
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+}
+
+#botaoparaprototipo a:active{
+    border: none;
+} 
+
+
+
